@@ -1,9 +1,9 @@
 {
+  "version": 2,
   "buildCommand": "cd frontend && npm install && npm run build",
-  "devCommand": "cd frontend && node_modules/.bin/next dev -p $PORT",
   "installCommand": "cd frontend && npm install",
   "outputDirectory": "frontend/.next",
   "rewrites": [
-    {"source": "/api/(.*)", "destination": "/api/index"}
+    { "source": "/api/(.*)", "destination": "/api/index" }
   ]
 }
